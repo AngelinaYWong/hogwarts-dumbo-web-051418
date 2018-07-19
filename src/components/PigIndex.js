@@ -7,7 +7,7 @@ class PigIndex extends React.Component {
     return this.props.hogsArray.map(hog => {
       return <PigTile hog = {
         hog
-      }
+      } choosePig={ this.props.choosePig }
       />
     })
 
