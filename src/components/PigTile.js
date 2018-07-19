@@ -3,7 +3,6 @@ import React from "react";
 class PigTile extends React.Component {
 
   handleClick = () => {
-    console.log("inside pigtile", this.props.hog);
     this.props.choosePig(this.props.hog)
   }
 
