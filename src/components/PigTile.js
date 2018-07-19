@@ -13,6 +13,7 @@ class PigTile extends React.Component {
         alt="this.props.name"/>
         <p>{ this.props.hog.name }</p>
       </div>
+
     )
   }
 

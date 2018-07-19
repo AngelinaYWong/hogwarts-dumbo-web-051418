@@ -8,7 +8,7 @@ class PigIndex extends React.Component {
       return <PigTile hog = {
         hog
       } choosePig={ this.props.choosePig }
-      />
+    />
     })
 
   }
